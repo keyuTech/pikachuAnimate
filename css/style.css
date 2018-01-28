@@ -20,3 +20,8 @@ body {
   overflow: hidden;
   height: 100%;
 }
+#container {
+  width: 350px;
+  height: 200px;
+  position: relative;
+}

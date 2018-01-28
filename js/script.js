@@ -12,7 +12,7 @@
         window.clearInterval(id)
         fn && fn.call()
       }
-    }, 40)
+    }, 20)
   }
   let code = `
   /*
@@ -24,11 +24,6 @@
     background: #ffe600;
     justify-content: center;
     align-items: center;
-  }
-  #container {
-    width: 400px;
-    height: 200px;
-    position: relative;
   }
   /*
   *然后呢，画一个小鼻子
@@ -94,14 +89,14 @@
   */
   .face-left {
     right: 50%;
-    margin-right: 110px;
+    margin-right: 100px;
   }
   /*
   *右边一个
   */
   .face-right {
     left: 50%;
-    margin-left: 110px;
+    margin-left: 100px;
   }
   /*
   *上嘴唇
