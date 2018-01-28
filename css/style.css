@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boreder-box;
+}
+
+*::before {
+  box-sizing: boreder-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.code-wrapper, .preview-wrapper {
+  flex: 1;
+  height: 50%;
+}
+#code {
+  overflow: hidden;
+  height: 100%;
+}
